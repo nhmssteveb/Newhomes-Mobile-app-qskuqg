@@ -1,0 +1,24 @@
+.notifications-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.notifications-container1 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.notifications-image {
+  width: 100%;
+  align-self: center;
+  margin-top: var(--dl-space-space-threeunits);
+  object-fit: cover;
+}

@@ -1,0 +1,62 @@
+.messaging-sj-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-primary-lightgrey);
+}
+.messaging-sj-container1 {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.messaging-sj-container2 {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-large);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.messaging-sj-navlink {
+  display: contents;
+}
+.messaging-sj-component1 {
+  text-decoration: none;
+}
+.messaging-sj-navlink1 {
+  display: contents;
+}
+.messaging-sj-component2 {
+  text-decoration: none;
+}
+.messaging-sj-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.messaging-sj-text {
+  color: var(--dl-color-primary-pink);
+  align-self: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+}
+.messaging-sj-image {
+  width: 80%;
+  align-self: center;
+  object-fit: cover;
+}

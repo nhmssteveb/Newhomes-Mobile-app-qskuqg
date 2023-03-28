@@ -1,0 +1,109 @@
+.contact-card-gallery-card {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  border-color: var(--dl-color-primary-lightgrey);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-primary-lightgrey);
+}
+.contact-card-photo {
+  width: 295px;
+  height: 260px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.contact-card-name {
+  color: var(--dl-color-primary-pink);
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  font-family: inherit;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.contact-card-job-title {
+  color: var(--dl-color-gray-black);
+  font-size: 25;
+  align-self: flex-start;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.15;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  text-transform: none;
+  text-decoration: none;
+}
+.contact-card-container {
+  flex: 0 0 auto;
+  width: 95%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.contact-card-phone {
+  fill: var(--dl-color-primary-pink);
+  width: 50px;
+  height: 50px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.contact-card-navlink {
+  display: contents;
+}
+.contact-card-chat {
+  fill: var(--dl-color-primary-pink);
+  width: 50px;
+  height: 50px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.contact-card-link {
+  display: contents;
+}
+.contact-card-email {
+  fill: var(--dl-color-primary-pink);
+  width: 50px;
+  height: 50px;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.contact-card-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+}
+.contact-card-text {
+  color: var(--dl-color-primary-limegreen);
+  align-self: center;
+  margin-top: 0px;
+}
+.contact-card-root-class-name {
+  height: 100%;
+}
+.contact-card-root-class-name1 {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+@media(max-width: 767px) {
+  .contact-card-gallery-card {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,26 @@
+.username-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.username-container1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.username-username {
+  width: var(--dl-size-size-xxlarge);
+  height: auto;
+  margin-top: var(--dl-space-space-fourunits);
+}
+.username-person {
+  fill: #b1aba8;
+  right: 11px;
+  width: 29px;
+  bottom: 0px;
+  height: 35px;
+  position: absolute;
+}
